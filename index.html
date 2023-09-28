@@ -18,11 +18,29 @@
             </ul>
         </nav>
 
-        <!--Banner-->
+        <!--Banner 
         <div id="home" class="banner">
             <h1>iKon</h1>
             <h2>GET READY? SHOW TIME!</h2>
-        </div>
+        </div> -->
+
+        <!-- Photo Slideshow -->
+    <div id="home" class="slideshow-container">
+    <div class="mySlide fade">
+    <img src="./IMG/Untitled-1.png" style="width:100%">
+    </div>
+    <div class="mySlide fade">
+    <img src="./IMG/IKON2_new.png" style="width:100%">
+    </div>
+    <div class="mySlide fade">
+    <img src="./IMG/ikon3.png" style="width:100%">
+    </div>
+    <!-- Previous & Next Buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+
 
         <!--MV-->
         <div id="MusicVideo" class="MV">
@@ -52,43 +70,43 @@
         <div class="aboutCards">
             <div class="cards-container">
                 <div class="col">
-                    <img class="mempic" src="./IMG/bi.jpg" alt="BI profile picture">
+                    <img class="mempic" src="./IMG/bi2.png" alt="BI profile picture">
                     <h3>BI</h3>
                     <p>Leader </p>
                     <a href="https://en.wikipedia.org/wiki/B.I_(rapper)" target="_blank">Know More</a>
                 </div>
                 <div class="col">
-                    <img class="mempic" src="./IMG/jay2.jpg" alt="Jay profile picture">
+                    <img class="mempic" src="./IMG/jay3.png" alt="Jay profile picture">
                     <h3>Jay</h3>
                     <p>Main Vocalist</p>
                     <a href="https://kprofiles.com/jay-ikon-profile/" target="_blank">Know More</a>
                 </div>
                 <div class="col">
-                    <img class="mempic" src="./IMG/bobby.jpg" alt="Bobby profile picture">
+                    <img class="mempic" src="./IMG/bobby2.png" alt="Bobby profile picture">
                     <h3>Bobby</h3>
                     <p>Main Rapper </p>
                     <a href="https://en.wikipedia.org/wiki/Bobby_(rapper)" target="_blank">Know More</a>
                 </div>
                 <div class="col">
-                    <img class="mempic" src="./IMG/song.jpg" alt="Song profile picture">
+                    <img class="mempic" src="./IMG/song3.png" alt="Song profile picture">
                     <h3>Song</h3>
                     <p>Vocalist </p>
                     <a href="https://kprofiles.com/song-ikon-profile/" target="_blank">Know More</a>
                 </div>
                 <div class="col">
-                    <img class="mempic" src="./IMG/dk.jpg" alt="DK profile picture">
+                    <img class="mempic" src="./IMG/dk3.png" alt="DK profile picture">
                     <h3>DK</h3>
                     <p>Main Dancer </p>
                     <a href="https://kprofiles.com/dk-ikon-profile/" target="_blank">Know More</a>
                 </div>
                 <div class="col">
-                    <img class="mempic" src="./IMG/june.jpg" alt="Ju-ne profile picture">
+                    <img class="mempic" src="./IMG/june3.png" alt="Ju-ne profile picture">
                     <h3>Ju-ne</h3>
                     <p>Main Vocalist </p>
                     <a href="https://en.wikipedia.org/wiki/Koo_Jun-hoe" target="_blank">Know More</a>
                 </div>
                 <div class="col">
-                    <img class="mempic" src="./IMG/chan.jpg" alt="Chan profile picture">
+                    <img class="mempic" src="./IMG/chan3.png" alt="Chan profile picture">
                     <h3>Chan</h3>
                     <p>Vocalist </p>
                     <a href="https://en.wikipedia.org/wiki/Jung_Chan-woo_(singer)" target="_blank">Know More</a>
@@ -121,21 +139,21 @@
                     <!-- Gender -->
                     <lable>Gender</lable>
                     <div class="gender-container">
-                        <input type="radio" id="male" name="gender" value="male">
+                        <input type="radio" id="male" name="gender" value="male" required>
                         <label for="male">M</label>
-                        <input type="radio" id="female" name="gender" value="female">
+                        <input type="radio" id="female" name="gender" value="female" required>
                         <label for="female">F</label>
-                        <input type="radio" id="not tell" name="gender" value="not tell">
+                        <input type="radio" id="not tell" name="gender" value="not tell" required>
                         <label for="not tell">Prefer not to tell</label>
                     </div>
                     <br>
                     <!-- Date of Birth -->
                     <label for="dob">Date of Birth</label>
-                    <input type="date" id="dob" name="dob">
+                    <input type="date" id="dob" name="dob" required>
                     <br>
                     <!-- Comments -->
                    <label for="comments">Share anything about BTS!</label>
-                   <textarea id="comments" name="comments" row="4" cols="50"></textarea>
+                   <textarea id="comments" name="comments" row="4" cols="50" required></textarea>
                    <br>
                     <!-- Submit -->
                     <input type="submit" value="Submit">
